@@ -243,3 +243,140 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+/* About.html */
+/* border-bottom: 1px dashed black; */
+
+.jumbo-pic{
+	border-bottom: 1px dashed black;
+	margin-bottom: 30px;
+
+}
+
+.jumbo-pic h2{
+	padding-left: 20px;
+	font-weight: bold;
+	margin-top: 20px;
+}
+
+.jumbo-pic p{
+	padding-left: 20px;
+	margin-bottom: 20px;
+
+}
+
+
+
+.main-content{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.main-content button{
+	margin-bottom: 20px;
+}
+
+.main-content h3{
+	margin-top: 20px;
+}
+
+
+.top-section-1{
+	width: 45%;
+	margin-bottom: 50px;
+	border-bottom:1px dashed black;
+
+}
+
+.top-section-1 button{
+	margin-top: 20px;
+	padding: 10px 30px;
+	border: 3px solid black;
+	border-radius: 12px;
+	font-size: 1em;
+	font-weight:bold;
+}
+
+/* .top-section-1 h3{
+	margin-top: 20px;
+} */
+
+
+.top-section-2{
+	width: 45%;
+	margin-bottom: 50px;
+	border-bottom:1px dashed black;
+}
+
+.top-section-2 button{
+	margin-top: 20px;
+	padding: 10px 30px;
+	border: 3px solid black;
+	border-radius: 12px;
+	font-size: 1em;
+	font-weight:bold;
+}
+
+.lower-content{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.lower-content h3{
+	margin-top: 20px;
+}
+
+.lower-content button{
+	margin-bottom: 20px;
+}
+
+.mid-section{
+	width: 50%;
+}
+
+
+.mid-section-1{
+	width: 45%;
+	margin-bottom: 50px;
+	border-bottom:1px dashed black;
+
+}
+
+.mid-section-1 button{
+	margin-top: 20px;
+	padding: 10px 30px;
+	border: 3px solid black;
+	border-radius: 12px;
+	font-size: 1em;
+	font-weight:bold;
+}
+
+/* .top-section-1 h3{
+	margin-top: 20px;
+} */
+
+
+.mid-section-2{
+	width: 45%;
+	margin-bottom: 50px;
+	border-bottom:1px dashed black;
+}
+
+.mid-section-2 button{
+	margin-top: 20px;
+	padding: 10px 30px;
+	border: 3px solid black;
+	border-radius: 12px;
+	font-size: 1em;
+	font-weight:bold;
+}
+
+.lower-page{
+	font-weight: bold;
+	padding-left: 20px;
+	margin-bottom: 40px;
+}

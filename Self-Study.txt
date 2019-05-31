@@ -1,0 +1,22 @@
+
+
+
+If you were to describe semantic HTML to the next cohort of students, what would you say?
+
+  Semantic html gives meaning to a browser or search engine. It allows browsers or search engines to know what roles are being played in the page.
+
+Name two big differences between display: block; and display: inline;.
+
+  Display: block retains height and width, it also takes up as much space as its container allows. Furthermore it disrupts the content flow.
+
+  Display: inline doesn't affect the content flow. It does not retain a height or width. It only takes up the space that the content allows.
+
+What are the 4 areas of the box model?
+
+ content,padding,border,margin
+
+While using flexbox, what axis does the following property work on: align-items: center?
+
+Explain why git is valuable to a team of developers.
+
+It allows developers to collaborate with each other. Furthermore it allows a team to changes to their code, while still preserving previous lines of code.
