@@ -456,3 +456,23 @@ footer nav a {
 		text-decoration: underline;
 
 }
+
+
+.thanks{
+	border: 5px black groove;
+	text-align: center;
+	background-color: grey
+
+}
+
+
+.thanks h1{
+	font-size: 2em;
+	font-weight:bold;
+
+}
+
+.thanks p{
+	font-size: 1em;
+	font-weight:bold;
+}
