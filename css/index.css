@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -65,11 +65,64 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+/* Index.html */
 
 .container {
     width: 800px;
     margin: 0 auto;
 }
+
+/* nav */
+nav{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: baseline;
+	height: 80px;
+	margin-top: 20px;
+}
+
+nav .logo{
+	height: 250px;
+	width: 250px;
+	margin-bottom: 100px;
+}
+
+nav ul{
+	display: flex;
+	margin-right: 30px;
+	width: 800px;
+}
+
+ul li{
+	display: flex;
+	list-style: none;
+	justify-content: space-evenly;
+	align-items: center;
+	padding-right: 5px;
+	margin-left: 20px;
+
+
+}
+
+nav li a{
+
+	color: black;
+	text-decoration: none;
+	margin: auto;
+	margin: 20px;
+	padding: 0 5px;
+
+
+}
+
+nav ul li a:hover{
+	text-decoration: underline;
+}
+
+
+
+
 
 .top-content {
     display: flex;
@@ -82,7 +135,7 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
 }
 
 .middle-content {
@@ -112,6 +165,47 @@ p {
     justify-content: center;
 }
 
+#box-1{
+	background: teal;
+}
+
+#box-2{
+	background: gold;
+}
+
+#box-3{
+	background: cadetblue;
+}
+
+#box-4{
+	background: coral;
+}
+
+#box-5{
+	background: crimson;
+}
+
+#box-6{
+	background: forestgreen;
+}
+
+#box-7{
+	background: darkorchid;
+}
+
+#box-8{
+	background: hotpink;
+}
+
+#box-9{
+	background: indigo;
+}
+
+#box-10{
+	background: dodgerblue;
+}
+
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -129,6 +223,8 @@ p {
 footer {
     width: 100%;
     background: black;
+		margin-top: 20px;
+
 }
 
 footer nav {
@@ -138,9 +234,245 @@ footer nav {
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
+		padding-top: 10px;
 }
 
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+/* About.html */
+/* border-bottom: 1px dashed black; */
+
+.jumbo-pic{
+
+	margin-bottom: 30px;
+
+}
+
+.jumbo-pic h2{
+	padding-left: 20px;
+	font-weight: bold;
+	margin-top: 20px;
+}
+
+.jumbo-pic p{
+	padding-left: 20px;
+	margin-bottom: 20px;
+
+}
+
+
+
+.main-content{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.main-content button{
+	margin-bottom: 20px;
+}
+
+.main-content h3{
+	margin-top: 20px;
+}
+
+
+.top-section-1{
+	width: 45%;
+	margin-bottom: 50px;
+	border-bottom:1px dashed black;
+
+}
+
+.top-section-1 button{
+	margin-top: 20px;
+	padding: 10px 30px;
+	border: 3px solid black;
+	border-radius: 12px;
+	font-size: 1em;
+	font-weight:bold;
+}
+
+/* .top-section-1 h3{
+	margin-top: 20px;
+} */
+
+
+.top-section-2{
+	width: 45%;
+	margin-bottom: 50px;
+	border-bottom:1px dashed black;
+}
+
+.top-section-2 button{
+	margin-top: 20px;
+	padding: 10px 30px;
+	border: 3px solid black;
+	border-radius: 12px;
+	font-size: 1em;
+	font-weight:bold;
+}
+
+.lower-content{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.lower-content h3{
+	margin-top: 20px;
+}
+
+.lower-content button{
+	margin-bottom: 20px;
+}
+
+.mid-section{
+	width: 50%;
+}
+
+
+.mid-section-1{
+	width: 45%;
+	margin-bottom: 50px;
+	border-bottom:1px dashed black;
+
+}
+
+.mid-section-1 button{
+	margin-top: 20px;
+	padding: 10px 30px;
+	border: 3px solid black;
+	border-radius: 12px;
+	font-size: 1em;
+	font-weight:bold;
+}
+
+/* .top-section-1 h3{
+	margin-top: 20px;
+} */
+
+
+.mid-section-2{
+	width: 45%;
+	margin-bottom: 50px;
+	border-bottom:1px dashed black;
+}
+
+.mid-section-2 button{
+	margin-top: 20px;
+	padding: 10px 30px;
+	border: 3px solid black;
+	border-radius: 12px;
+	font-size: 1em;
+	font-weight:bold;
+}
+
+.lower-page{
+	font-weight: bold;
+	padding-left: 20px;
+	margin-bottom: 40px;
+}
+
+
+/* Contact.html */
+
+.contact-form{
+	text-align: center;
+	background-color: #bcb7b8;
+	margin-bottom: 40px;
+}
+
+.contact-form h2{
+	padding-top: 20px;
+	font-size: 3em;
+	font-weight: bold;
+	text-align: center;
+}
+
+.contact-form .labels{
+	font-size: 1.5em;
+}
+
+.contact-form input{
+	text-align: center;
+	width: 70%;
+	padding: 10px;
+	font-size: 1em;
+}
+
+.contact-form .info{
+	text-align: center;
+	padding: 50px 0px;
+}
+
+
+.contact-form .name-1{
+	padding: 20px 0px;
+}
+
+.contact-form .name-2{
+	padding: 20px 0px;
+}
+
+.contact-form .email{
+	padding: 20px 0px;
+}
+
+.contact-form .pass{
+	padding: 20px 0px;
+}
+
+.contact-form .phone{
+	padding: 20px 0px;
+}
+
+.contact-form button{
+	font-size: 1.5em;
+	background-color: black;
+	color: white;
+	padding: 20px 40px;
+	width: 70%;
+	margin-top: 20px;
+	border: 1px white solid;
+	border-radius: 50px;
+}
+
+.contact-form button:hover{
+	background-color: crimson;
+}
+
+.contact-form button a{
+	text-decoration: none;
+	color:white;
+}
+
+.contact-form button a:hover{
+		text-decoration: underline;
+
+}
+
+
+.thanks{
+	border: 5px black groove;
+	text-align: center;
+	background-color: grey
+
+}
+
+
+.thanks h1{
+	font-size: 2em;
+	font-weight:bold;
+
+}
+
+.thanks p{
+	font-size: 1em;
+	font-weight:bold;
 }
